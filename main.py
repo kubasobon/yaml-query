@@ -26,6 +26,7 @@ def validate_filepath(filepath):
         return
     fatal(f"invalid filepath: '{filepath}'")
 
+
 def walk_yaml_data(yamlpath, yamldata):
     obj = yamldata
 
@@ -69,9 +70,3 @@ if __name__ == "__main__":
     output_obj = walk_yaml_data(yamlpath, yamldata)
     yaml.dump(output_obj, sys.stdout)
     sys.stdout.close()
-
-
-
-
-
-
