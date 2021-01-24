@@ -30,7 +30,6 @@ def validate_filepath(filepath):
 def walk_yaml_data(yamlpath, yamldata):
     obj = yamldata
 
-    # todo: catch exceptions
     for segment in yamlpath.split():
         if "[" in segment:
             segment, idx = segment.split("[")
