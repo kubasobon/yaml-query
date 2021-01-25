@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/kubasobon/yaml-query",
     packages=setuptools.find_packages(),
-    scripts=["yaml-query/yaml-query"]
+    scripts=["yaml-query/yaml-query"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
