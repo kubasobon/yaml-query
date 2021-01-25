@@ -5,7 +5,7 @@ with open("README.md") as f:
 
 setuptools.setup(
     name="yaml-query",
-    version="0.0.1",
+    version="0.0.2",
     author="kubasobon",
     author_email="wtty.fool@gmail.com",
     description="yaml query library",
